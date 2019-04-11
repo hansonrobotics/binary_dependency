@@ -1,0 +1,8 @@
+322,324c322,324
+<         if not self._publishers[topic].has_clients():
+<             self._publishers[topic].unregister()
+<             del self._publishers[topic]
+---
+>         # if not self._publishers[topic].has_clients():
+>         #     self._publishers[topic].unregister()
+>         #     del self._publishers[topic]
